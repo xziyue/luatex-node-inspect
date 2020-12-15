@@ -137,9 +137,11 @@ end
 function attribute_list_node_to_table(n, param)
     local ret = {}
     ret["id"] = generic_describe_text_format("attribute_list", node.id("attribute_list"))
-    for attr_n in node.traverse(n.next) do
-        local key = tostring(attr_n.number)
-        ret[key] = attr_n.value
+    if n ~= nil then
+        for attr_n in node.traverse(n.next) do
+            local key = tostring(attr_n.number)
+            ret[key] = attr_n.value
+        end
     end
     return ret
 end

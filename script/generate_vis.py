@@ -1,5 +1,6 @@
 from graphviz import Digraph
 import json
+import html
 
 with open('../temp.json', 'r') as infile:
     obj = json.load(infile)
@@ -9,7 +10,7 @@ root = obj
 class GraphBuilder:
 
     important_fields = [
-        'width', 'height', 'data', 'char'
+        'width', 'height', 'data', 'char', 'link_attr'
     ]
 
     unimportant_fields = [
@@ -39,7 +40,7 @@ class GraphBuilder:
                     self.generate_helper(val, my_id)
                 else:
                     if key in self.important_fields:
-                        node_text.append('{}={}'.format(key, val))
+                        node_text.append('{}={}'.format(key, html.escape(str(val))))
 
             node_str = '<BR/>'.join(node_text)
             my_node = self.graph.node(str(my_id), '<%s>'%node_str)
