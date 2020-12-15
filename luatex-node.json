@@ -1,0 +1,920 @@
+{
+  "_node_id": {
+    "0": "hlist",
+    "1": "vlist",
+    "2": "rule",
+    "3": "ins",
+    "4": "mark",
+    "5": "adjust",
+    "6": "boundary",
+    "7": "disc",
+    "8": "whatsit",
+    "9": "local_par",
+    "10": "dir",
+    "11": "math",
+    "12": "glue",
+    "13": "kern",
+    "14": "penalty",
+    "15": "unset",
+    "16": "style",
+    "17": "choice",
+    "18": "noad",
+    "19": "radical",
+    "20": "fraction",
+    "21": "accent",
+    "22": "fence",
+    "23": "math_char",
+    "24": "sub_box",
+    "25": "sub_mlist",
+    "26": "math_text_char",
+    "27": "delim",
+    "28": "margin_kern",
+    "29": "glyph",
+    "30": "align_record",
+    "31": "pseudo_file",
+    "32": "pseudo_line",
+    "33": "page_insert",
+    "34": "split_insert",
+    "35": "expr_stack",
+    "36": "nested_list",
+    "37": "span",
+    "38": "attribute",
+    "39": "glue_spec",
+    "40": "attribute_list",
+    "41": "temp",
+    "42": "align_stack",
+    "43": "movement_stack",
+    "44": "if_stack",
+    "45": "unhyphenated",
+    "46": "hyphenated",
+    "47": "delta",
+    "48": "passive",
+    "49": "shape"
+  },
+  "_math_options": {
+    "8": "set/internal",
+    "9": "internal",
+    "10": "axis",
+    "12": "no axis",
+    "24": "exact",
+    "25": "left",
+    "26": "middle",
+    "28": "right",
+    "41": "no sub script",
+    "42": "no super script",
+    "43": "no script"
+  },
+  "_whatsit_id": {
+    "0": "open",
+    "1": "write",
+    "2": "close",
+    "3": "special",
+    "6": "save_pos",
+    "7": "late_lua",
+    "8": "user_defined",
+    "16": "pdf_literal",
+    "17": "pdf_refobj",
+    "18": "pdf_annot",
+    "19": "pdf_start_link",
+    "20": "pdf_end_link",
+    "21": "pdf_dest",
+    "22": "pdf_action",
+    "23": "pdf_thread",
+    "24": "pdf_start_thread",
+    "25": "pdf_end_thread",
+    "26": "pdf_thread_data",
+    "27": "pdf_link_data",
+    "28": "pdf_colorstack",
+    "29": "pdf_setmatrix",
+    "30": "pdf_save",
+    "31": "pdf_restore"
+  },
+  "hlist": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "shift",
+      "glue_order",
+      "glue_set",
+      "glue_sign",
+      "head",
+      "list",
+      "dir"
+    ],
+    "subtype": {
+      "0": "unknown",
+      "1": "line",
+      "2": "box",
+      "3": "indent",
+      "4": "alignment",
+      "5": "cell",
+      "6": "equation",
+      "7": "equationnumber",
+      "8": "math",
+      "9": "mathchar",
+      "10": "hextensible",
+      "11": "vextensible",
+      "12": "hdelimiter",
+      "13": "vdelimiter",
+      "14": "overdelimiter",
+      "15": "underdelimiter",
+      "16": "numerator",
+      "17": "denominator",
+      "18": "limits",
+      "19": "fraction",
+      "20": "nucleus",
+      "21": "sup",
+      "22": "sub",
+      "23": "degree",
+      "24": "scripts",
+      "25": "over",
+      "26": "under",
+      "27": "accent",
+      "28": "radical"
+    },
+    "glue_sign": {
+      "0": "normal",
+      "1": "stretching",
+      "2": "shrinking"
+    }
+  },
+  "vlist": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "shift",
+      "glue_order",
+      "glue_set",
+      "glue_sign",
+      "head",
+      "list",
+      "dir"
+    ],
+    "subtype": {
+      "0": "unknown",
+      "4": "alignment",
+      "5": "cell"
+    }
+  },
+  "rule": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "left",
+      "right",
+      "dir",
+      "index",
+      "transform"
+    ],
+    "subtype": {
+      "0": "normal",
+      "1": "box",
+      "2": "image",
+      "3": "empty",
+      "4": "user",
+      "5": "over",
+      "6": "under",
+      "7": "fraction",
+      "8": "radical",
+      "9": "outline"
+    }
+  },
+  "ins": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "cost",
+      "height",
+      "depth",
+      "head",
+      "list"
+    ]
+  },
+  "mark": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "class",
+      "mark"
+    ]
+  },
+  "adjust": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "head",
+      "list"
+    ],
+    "subtype": {
+      "0": "normal",
+      "1": "pre"
+    }
+  },
+  "disc": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "pre",
+      "post",
+      "replace",
+      "penalty"
+    ],
+    "subtype": {
+      "0": "discretionary",
+      "1": "explicit",
+      "2": "automatic",
+      "3": "regular",
+      "4": "first",
+      "5": "second"
+    }
+  },
+  "math": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "surround"
+    ],
+    "subtype": {
+      "0": "beginmath",
+      "1": "endmath"
+    }
+  },
+  "glue": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "width",
+      "stretch",
+      "stretch_over",
+      "shrink",
+      "shrink_over",
+      "attr",
+      "leader"
+    ],
+    "subtype": {
+      "0": "userskip",
+      "1": "lineskip",
+      "2": "baselineskip",
+      "3": "parskip",
+      "4": "abovedisplayskip",
+      "5": "belowdisplayskip",
+      "6": "abovedisplayshortskip",
+      "7": "belowdisplayshortskip",
+      "8": "leftskip",
+      "9": "rightskip",
+      "10": "topskip",
+      "11": "splittopskip",
+      "12": "tabskip",
+      "13": "spaceskip",
+      "14": "xspaceskip",
+      "15": "parfillskip",
+      "16": "mathskip",
+      "17": "thinmuskip",
+      "18": "medmuskip",
+      "19": "thickmuskip",
+      "98": "conditionalmathskip",
+      "99": "muglue",
+      "100": "leaders",
+      "101": "cleaders",
+      "102": "xleaders",
+      "103": "gleaders"
+    }
+  },
+  "kern": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "kern"
+    ],
+    "subtype": {
+      "0": "footkern",
+      "1": "userkern",
+      "2": "accentkern",
+      "3": "italiccorrection"
+    }
+  },
+  "penalty": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "penalty"
+    ],
+    "subtype": {
+      "0": "userpenalty",
+      "1": "linebreakpenalty",
+      "2": "linepenalty",
+      "3": "wordpenalty",
+      "4": "finalpenalty",
+      "5": "noadpenalty",
+      "6": "beforedisplaypenalty",
+      "7": "afterdisplaypenalty",
+      "8": "equationnumberpenalty"
+    }
+  },
+  "glyph": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "char",
+      "font",
+      "lang",
+      "left",
+      "right",
+      "uchyph",
+      "components",
+      "xoffset",
+      "yoffset",
+      "width",
+      "height",
+      "depth",
+      "expansion_factor",
+      "data"
+    ],
+    "subtype": {
+      "0": "",
+      "1": "character",
+      "2": "ligature",
+      "3": "ligature+character",
+      "4": "ghost",
+      "5": "ghost+character",
+      "6": "ghost+ligature",
+      "7": "ghost+ligature+character",
+      "8": "left",
+      "9": "left+character",
+      "10": "left+ligature",
+      "11": "left+ligature+character",
+      "12": "left+ghost",
+      "13": "left+ghost+character",
+      "14": "left+ghost+ligature",
+      "15": "left+ghost+ligature+character",
+      "16": "right",
+      "17": "right+character",
+      "18": "right+ligature",
+      "19": "right+ligature+character",
+      "20": "right+ghost",
+      "21": "right+ghost+character",
+      "22": "right+ghost+ligature",
+      "23": "right+ghost+ligature+character",
+      "24": "right+left",
+      "25": "right+left+character",
+      "26": "right+left+ligature",
+      "27": "right+left+ligature+character",
+      "28": "right+left+ghost",
+      "29": "right+left+ghost+character",
+      "30": "right+left+ghost+ligature",
+      "31": "right+left+ghost+ligature+character"
+    }
+  },
+  "boundary": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "value"
+    ]
+  },
+  "local_par": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "pen_inter",
+      "pen_broken",
+      "dir",
+      "box_left",
+      "box_left_width",
+      "box_right",
+      "box_right_width"
+    ]
+  },
+  "dir": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "dir",
+      "level"
+    ]
+  },
+  "marginkern": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "glyph"
+    ],
+    "subtype": {
+      "0": "left",
+      "1": "right"
+    }
+  },
+  "math_char": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "char",
+      "fam"
+    ]
+  },
+  "math_text_char": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "char",
+      "fam"
+    ]
+  },
+  "sub_box": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "head",
+      "list"
+    ]
+  },
+  "sub_mlist": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "head",
+      "list"
+    ]
+  },
+  "delim": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "small_char",
+      "small_fam",
+      "large_char",
+      "large_fam"
+    ]
+  },
+  "noad": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "nucleus",
+      "sub",
+      "sup",
+      "options"
+    ],
+    "subtype": {
+      "0": "ord",
+      "1": "opdisplaylimits",
+      "2": "oplimits",
+      "3": "opnolimits",
+      "4": "bin",
+      "5": "rel",
+      "6": "open",
+      "7": "close",
+      "8": "punct",
+      "9": "inner",
+      "10": "under",
+      "11": "over",
+      "12": "vcenter"
+    }
+  },
+  "accent": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "nucleus",
+      "sub",
+      "sup",
+      "accent",
+      "bot_accent",
+      "fraction"
+    ],
+    "subtype": {
+      "0": "bothflexible",
+      "1": "fixedtop",
+      "2": "fixedbottom",
+      "3": "fixedboth"
+    }
+  },
+  "style": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "style"
+    ]
+  },
+  "choice": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "display",
+      "text",
+      "script",
+      "scriptscript"
+    ]
+  },
+  "radical": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "nucleus",
+      "sub",
+      "sup",
+      "left",
+      "degree",
+      "width",
+      "options"
+    ],
+    "subtype": {
+      "0": "radical",
+      "1": "uradical",
+      "2": "uroot",
+      "3": "uunderdelimiter",
+      "4": "uoverdelimiter",
+      "5": "udelimiterunder",
+      "6": "udelimiterover"
+    }
+  },
+  "fraction": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "num",
+      "denom",
+      "left",
+      "right",
+      "middle",
+      "options"
+    ]
+  },
+  "fence": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "delim",
+      "italic",
+      "height",
+      "depth",
+      "options",
+      "class"
+    ]
+  },
+  "whatsit_open": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "stream",
+      "name",
+      "ext",
+      "area"
+    ]
+  },
+  "whatsit_write": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "stream",
+      "data"
+    ]
+  },
+  "whatsit_close": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "stream"
+    ]
+  },
+  "whatsit_user_defined": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "user_id",
+      "type",
+      "value"
+    ],
+    "type": {
+      "97": "attribute list",
+      "100": "Lua number",
+      "108": "Lua value",
+      "110": "node list",
+      "115": "Lua string",
+      "116": "Lua token list"
+    }
+  },
+  "whatsit_save_pos": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr"
+    ]
+  },
+  "whatsit_late_lua": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "data",
+      "token",
+      "name"
+    ]
+  },
+  "whatsit_special": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "data"
+    ]
+  },
+  "whatsit_pdf_literal": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "mode",
+      "data",
+      "token"
+    ],
+    "mode": {
+      "0": "origin",
+      "1": "page",
+      "2": "direct",
+      "3": "raw",
+      "4": "text"
+    }
+  },
+  "whatsit_pdf_refobj": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "objnum"
+    ]
+  },
+  "whatsit_pdf_annot": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "objnum",
+      "data"
+    ]
+  },
+  "whatsit_pdf_start_link": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "objnum",
+      "link_attr",
+      "action"
+    ]
+  },
+  "whatsit_pdf_end_link": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr"
+    ]
+  },
+  "whatsit_pdf_dest": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "named_id",
+      "dest_id",
+      "dest_type",
+      "xyz_zoom",
+      "objnum"
+    ]
+  },
+  "whatsit_pdf_action": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "action_type",
+      "action_id",
+      "named_id",
+      "file",
+      "new_window",
+      "data"
+    ],
+    "action_type": {
+      "0": "page",
+      "1": "goto",
+      "2": "thread",
+      "3": "user"
+    },
+    "new_window": {
+      "0": "notset",
+      "1": "new",
+      "2": "nonew"
+    }
+  },
+  "whatsit_pdf_thread": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "named_id",
+      "thread_id",
+      "thread_attr"
+    ]
+  },
+  "whatsit_pdf_start_thread": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "width",
+      "height",
+      "depth",
+      "named_id",
+      "thread_id",
+      "thread_attr"
+    ]
+  },
+  "whatsit_pdf_end_thread": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr"
+    ]
+  },
+  "whatsit_pdf_colorstack": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "stack",
+      "command",
+      "data"
+    ]
+  },
+  "whatsit_pdf_setmatrix": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr",
+      "data"
+    ]
+  },
+  "whatsit_pdf_save": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr"
+    ]
+  },
+  "whatsit_pdf_restore": {
+    "_field": [
+      "id",
+      "prev",
+      "next",
+      "subtype",
+      "attr"
+    ]
+  }
+}

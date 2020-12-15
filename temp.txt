@@ -1,0 +1,450 @@
+{
+  attr = {
+    [0] = 0,
+    id = "attribute_list(40)"
+  },
+  depth = "0.000000pt",
+  dir = "TLT",
+  glue_order = 0,
+  glue_set = 0.0,
+  glue_sign = 0,
+  head = { {
+      attr = {
+        [0] = 0,
+        id = "attribute_list(40)"
+      },
+      id = "glue(12)",
+      leader = {},
+      next = { "<node    633 <    741 >    nil : vlist 0>" },
+      prev = {},
+      shrink = 0,
+      shrink_over = {},
+      stretch = 0,
+      stretch_over = {},
+      subtype = "userskip(0)",
+      width = "16.000000pt"
+    }, {
+      attr = {
+        [0] = 0,
+        id = "attribute_list(40)"
+      },
+      depth = "0.000000pt",
+      dir = "TLT",
+      glue_order = 0,
+      glue_set = 0.0,
+      glue_sign = 0,
+      head = { {
+          attr = {
+            [0] = 0,
+            id = "attribute_list(40)"
+          },
+          depth = "0.000000pt",
+          dir = "TLT",
+          glue_order = 2,
+          glue_set = 12.0,
+          glue_sign = 1,
+          head = { {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = { "<node    654 <    668 >    nil : hlist 2>" },
+              prev = {},
+              shrink = 0,
+              shrink_over = {},
+              stretch = 65536,
+              stretch_over = {},
+              subtype = "userskip(0)",
+              width = "0.000000pt"
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              depth = "0.000000pt",
+              dir = "TLT",
+              glue_order = 0,
+              glue_set = 0.0,
+              glue_sign = "normal(0)",
+              head = {},
+              height = "0.000000pt",
+              id = "hlist(0)",
+              list = {},
+              next = {},
+              prev = { "<node    nil <    654 >    668 : glue 0>" },
+              shift = 0,
+              subtype = "box(2)",
+              width = "345.000000pt"
+            } },
+          height = "12.000000pt",
+          id = "vlist(1)",
+          next = { "<node    686 <    647 >    695 : glue 0>" },
+          prev = {},
+          shift = 0,
+          subtype = "unknown(0)",
+          width = "345.000000pt"
+        }, {
+          attr = {
+            [0] = 0,
+            id = "attribute_list(40)"
+          },
+          id = "glue(12)",
+          leader = {},
+          next = { "<node    647 <    695 >    441 : glue 1>" },
+          prev = { "<node    nil <    686 >    647 : vlist 0>" },
+          shrink = 0,
+          shrink_over = {},
+          stretch = 0,
+          stretch_over = {},
+          subtype = "userskip(0)",
+          width = "25.000000pt"
+        }, {
+          attr = {
+            [0] = 0,
+            id = "attribute_list(40)"
+          },
+          id = "glue(12)",
+          leader = {},
+          next = { "<node    695 <    441 >    718 : vlist 0>" },
+          prev = { "<node    686 <    647 >    695 : glue 0>" },
+          shrink = 0,
+          shrink_over = {},
+          stretch = 0,
+          stretch_over = {},
+          subtype = "lineskip(1)",
+          width = "0.000000pt"
+        }, {
+          attr = {
+            [0] = 0,
+            id = "attribute_list(40)"
+          },
+          depth = "0.000000pt",
+          dir = "TLT",
+          glue_order = 2,
+          glue_set = 539.94232177734,
+          glue_sign = 1,
+          head = { { "<node    nil <     80 >    405 : whatsit 1>" }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = { "<node    405 <    426 >    511 : hlist 1>" },
+              prev = { "<node    nil <     80 >    405 : whatsit 1>" },
+              shrink = 0,
+              shrink_over = {},
+              stretch = 0,
+              stretch_over = {},
+              subtype = "topskip(10)",
+              width = "3.111252pt"
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              depth = "0.000000pt",
+              dir = "TLT",
+              glue_order = 2,
+              glue_set = 312.08367919922,
+              glue_sign = "stretching(1)",
+              head = { {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  box_left = {},
+                  box_left_width = 0,
+                  box_right = {},
+                  box_right_width = 0,
+                  dir = "TLT",
+                  id = "local_par(9)",
+                  next = { "<node    462 <    417 >    398 : hlist 3>" },
+                  pen_broken = 0,
+                  pen_inter = 0,
+                  prev = {},
+                  subtype = {}
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  depth = "0.000000pt",
+                  dir = "TLT",
+                  glue_order = 0,
+                  glue_set = 0.0,
+                  glue_sign = "normal(0)",
+                  head = {},
+                  height = "0.000000pt",
+                  id = "hlist(0)",
+                  list = {},
+                  next = { "<node    417 <    398 >    500 : glyph 256>" },
+                  prev = { "<node    nil <    462 >    417 : local_par 0>" },
+                  shift = 0,
+                  subtype = "indent(3)",
+                  width = "15.000000pt"
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  char = "'A'(65)",
+                  components = {},
+                  data = 0,
+                  depth = "0.000000pt",
+                  expansion_factor = 0,
+                  font = 26,
+                  height = "6.888748pt",
+                  id = "glyph(29)",
+                  lang = 0,
+                  left = 2,
+                  next = { "<node    398 <    500 >    475 : disc 2>" },
+                  prev = { "<node    462 <    417 >    398 : hlist 3>" },
+                  right = 3,
+                  subtype = "*unknown*(256)",
+                  uchyph = 1,
+                  width = "7.500000pt",
+                  xoffset = 0,
+                  yoffset = 0
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  id = "disc(7)",
+                  next = { "<node    500 <    475 >    329 : glyph 256>" },
+                  penalty = 50,
+                  post = {},
+                  pre = { "<node    nil <    489 >    nil : glyph 256>" },
+                  prev = { "<node    417 <    398 >    500 : glyph 256>" },
+                  replace = { "<node    nil <    468 >    nil : glyph 256>" },
+                  subtype = "automatic(2)"
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  char = "'B'(66)",
+                  components = {},
+                  data = 0,
+                  depth = "0.000000pt",
+                  expansion_factor = 0,
+                  font = 26,
+                  height = "6.888748pt",
+                  id = "glyph(29)",
+                  lang = 0,
+                  left = 2,
+                  next = { "<node    475 <    329 >    482 : penalty 2>" },
+                  prev = { "<node    398 <    500 >    475 : disc 2>" },
+                  right = 3,
+                  subtype = "*unknown*(256)",
+                  uchyph = 1,
+                  width = "7.082993pt",
+                  xoffset = 0,
+                  yoffset = 0
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  id = "penalty(14)",
+                  next = { "<node    329 <    482 >    518 : glue 15>" },
+                  penalty = 10000,
+                  prev = { "<node    500 <    475 >    329 : glyph 256>" },
+                  subtype = "linepenalty(2)"
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  id = "glue(12)",
+                  leader = {},
+                  next = { "<node    482 <    518 >    nil : glue 9>" },
+                  prev = { "<node    475 <    329 >    482 : penalty 2>" },
+                  shrink = 0,
+                  shrink_over = {},
+                  stretch = 65536,
+                  stretch_over = {},
+                  subtype = "parfillskip(15)",
+                  width = "0.000000pt"
+                }, {
+                  attr = {
+                    [0] = 0,
+                    id = "attribute_list(40)"
+                  },
+                  id = "glue(12)",
+                  leader = {},
+                  next = {},
+                  prev = { "<node    329 <    482 >    518 : glue 15>" },
+                  shrink = 0,
+                  shrink_over = {},
+                  stretch = 0,
+                  stretch_over = {},
+                  subtype = "rightskip(9)",
+                  width = "0.000000pt"
+                } },
+              height = "6.888748pt",
+              id = "hlist(0)",
+              next = { "<node    426 <    511 >    525 : glue 0>" },
+              prev = { "<node     80 <    405 >    426 : glue 10>" },
+              shift = 0,
+              subtype = "line(1)",
+              width = "345.000000pt"
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = { "<node    511 <    525 >    532 : glue 0>" },
+              prev = { "<node    405 <    426 >    511 : hlist 1>" },
+              shrink = 0,
+              shrink_over = {},
+              stretch = 65536,
+              stretch_over = {},
+              subtype = "userskip(0)",
+              width = "0.000000pt"
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = { "<node    525 <    532 >    nil : glue 0>" },
+              prev = { "<node    426 <    511 >    525 : glue 0>" },
+              shrink = 0,
+              shrink_over = {},
+              stretch = 0,
+              stretch_over = {},
+              subtype = "userskip(0)",
+              width = "0.000000pt"
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = {},
+              prev = { "<node    511 <    525 >    532 : glue 0>" },
+              shrink = 0,
+              shrink_over = {},
+              stretch = 7,
+              stretch_over = {},
+              subtype = "userskip(0)",
+              width = "0.000000pt"
+            } },
+          height = "550.000000pt",
+          id = "vlist(1)",
+          next = { "<node    441 <    718 >    732 : glue 2>" },
+          prev = { "<node    647 <    695 >    441 : glue 1>" },
+          shift = 0,
+          subtype = "unknown(0)",
+          width = "345.000000pt"
+        }, {
+          attr = {
+            [0] = 0,
+            id = "attribute_list(40)"
+          },
+          id = "glue(12)",
+          leader = {},
+          next = { "<node    718 <    732 >    nil : hlist 2>" },
+          prev = { "<node    695 <    441 >    718 : vlist 0>" },
+          shrink = 0,
+          shrink_over = {},
+          stretch = 0,
+          stretch_over = {},
+          subtype = "baselineskip(2)",
+          width = "23.702759pt"
+        }, {
+          attr = {
+            [0] = 0,
+            id = "attribute_list(40)"
+          },
+          depth = "0.000000pt",
+          dir = "TLT",
+          glue_order = 2,
+          glue_set = 170.0,
+          glue_sign = "stretching(1)",
+          head = { {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = { "<node    711 <    704 >    725 : glyph 256>" },
+              prev = {},
+              shrink = 0,
+              shrink_over = {},
+              stretch = 65536,
+              stretch_over = {},
+              subtype = "userskip(0)",
+              width = "0.000000pt"
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              char = "'1'(49)",
+              components = {},
+              data = 0,
+              depth = "0.000000pt",
+              expansion_factor = 0,
+              font = 26,
+              height = "6.297241pt",
+              id = "glyph(29)",
+              lang = 0,
+              left = 2,
+              next = { "<node    704 <    725 >    nil : glue 0>" },
+              prev = { "<node    nil <    711 >    704 : glue 0>" },
+              right = 3,
+              subtype = "*unknown*(256)",
+              uchyph = 1,
+              width = "5.000000pt",
+              xoffset = 0,
+              yoffset = 0
+            }, {
+              attr = {
+                [0] = 0,
+                id = "attribute_list(40)"
+              },
+              id = "glue(12)",
+              leader = {},
+              next = {},
+              prev = { "<node    711 <    704 >    725 : glyph 256>" },
+              shrink = 0,
+              shrink_over = {},
+              stretch = 65536,
+              stretch_over = {},
+              subtype = "userskip(0)",
+              width = "0.000000pt"
+            } },
+          height = "6.297241pt",
+          id = "hlist(0)",
+          next = {},
+          prev = { "<node    441 <    718 >    732 : glue 2>" },
+          shift = 0,
+          subtype = "box(2)",
+          width = "345.000000pt"
+        } },
+      height = "617.000000pt",
+      id = "vlist(1)",
+      next = {},
+      prev = { "<node    nil <    633 >    741 : glue 0>" },
+      shift = 4063232,
+      subtype = "unknown(0)",
+      width = "345.000000pt"
+    } },
+  height = "633.000000pt",
+  id = "vlist(1)",
+  next = {},
+  prev = {},
+  shift = 0,
+  subtype = "unknown(0)",
+  width = "407.000000pt"
+}

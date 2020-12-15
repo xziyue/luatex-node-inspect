@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{luacode}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{atbegshi}
+
+\setmainfont{DejaVu Serif}
+
+\begin{luacode*}
+require "luatex-node-to-table"
+inspect = require"inspect"
+
+local my_param = get_default_param()
+my_param["expand_depth"] = 0
+
+function recursive_expand_node(n)
+  local tbl = luatex_node_to_table(n, my_param)
+  local head = n.head
+  if head ~= nil then
+    local lst_tbl = {}
+    tbl["list"] = nil
+    local item = nil
+    for n1 in node.traverse(head) do
+      item = recursive_expand_node(n1)
+      table.insert(lst_tbl, item)
+    end
+    tbl["head"] = lst_tbl
+  end
+  return tbl
+end
+\end{luacode*}
+
+
+
+\begin{document}
+
+\null
+
+A-\textcolor{red}{B}
+%\includegraphics{example-image-a}
+
+\AtBeginShipout{%
+  \directlua{
+    local n = tex.box["AtBeginShipoutBox"]
+    local all_n = recursive_expand_node(n)
+    local inspect_text = inspect(all_n)
+    local json_text = json.encode(all_n)
+    local file = io.open("temp.json", "w")
+    file:write(json_text)
+    file:close()
+  }
+}
+
+\end{document}
